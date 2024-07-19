@@ -29,5 +29,8 @@ ArrayList<ContactModel> arrContacts = new ArrayList<>();
         }
 
 
+        RecyclerContactAdapter adapter = new RecyclerContactAdapter(this,arrContacts);
+
+
     }
 }
