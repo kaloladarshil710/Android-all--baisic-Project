@@ -22,7 +22,6 @@ public class RecyclerContactAdapter extends RecyclerView.Adapter<RecyclerContact
     }
 
 
-
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -52,7 +51,7 @@ public class RecyclerContactAdapter extends RecyclerView.Adapter<RecyclerContact
         TextView txtName,txtNumber;
         ImageView imgContact;
 
-        public ViewHolder(@NonNull View itemView){
+        public ViewHolder(View itemView){
             super(itemView);
 
             txtName = itemView.findViewById(R.id.txtName);
@@ -62,3 +61,5 @@ public class RecyclerContactAdapter extends RecyclerView.Adapter<RecyclerContact
         }
     }
 }
+ 
+
