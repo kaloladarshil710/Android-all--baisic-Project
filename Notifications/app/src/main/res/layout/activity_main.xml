@@ -10,10 +10,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Notification"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="252dp"
+        android:layout_height="158dp"
+        app:srcCompat="@drawable/icon"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="198dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
