@@ -18,5 +18,9 @@ ViewPager viewPager;
         tab = findViewById(R.id.tab);
         viewPager = findViewById(R.id.viewPager);
 
+        ViewPagerMessagerAdepter adepter = new ViewPagerMessagerAdepter(getSupportFragmentManager());
+        viewPager.setAdapter(adepter);
+
+        tab.setupWithViewPager(viewPager);
     }
 }
